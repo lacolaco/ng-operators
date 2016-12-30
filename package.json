@@ -10,7 +10,7 @@
     "lint": "tslint src/**/*.ts",
     "test": "tsc -p tsconfig.test.json && mocha",
     "preversion": "npm run lint && npm run build && npm test",
-    "prepublish": "node make-package.js"
+    "postversion": "node make-package.js"
   },
   "repository": {
     "type": "git",
