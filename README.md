@@ -31,7 +31,7 @@ response$.mapToResponseJson().subscribe(...);
 * Import single operator as a function
 
 ```ts
-import { mapToResponseJson } from 'ng-operators/mapToResponseJson';
+import { mapToResponseJson } from 'ng-operators';
 
 mapToResponseJson.call(response$).subscribe(...);
 ```
