@@ -35,7 +35,14 @@ mapToResponseJson.call(response$).subscribe(...);
 Input: `Observable<Response>`
 Output: `Observable<T>`
 
-Shorthand of `.map(resp => resp.json() as Model)`
+A shorthand of `.map(resp => resp.json() as Model)`
+
+### `mapToResponseText`
+
+Input: `Observable<Response>`
+Output: `Observable<string>`
+
+A shorthand of `.map(resp => resp.text())`
 
 
 ## License
