@@ -57,7 +57,7 @@ A shorthand of `.map(resp => resp.text())`
 - Input: `Observable<router.Event>`
 - Output: `Observable<router.NavigationEnd>`
 
-A shorthand of `router.events.filter(e => e instanceof NavigationEnd)`
+A shorthand of `.filter(e => e instanceof NavigationEnd)`
 
 ## License
 MIT
