@@ -1,6 +1,14 @@
 # ng-operators
+[![npm version](https://badge.fury.io/js/ng-operators.svg)](https://badge.fury.io/js/ng-operators)
+[![CircleCI](https://circleci.com/gh/laco0416/ng-operators.svg?style=svg)](https://circleci.com/gh/laco0416/ng-operators)
 
 RxJS operators for Angular
+
+## Install
+
+```
+$ npm install --save ng-operators
+```
 
 ## Usage
 
