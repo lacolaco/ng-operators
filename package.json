@@ -4,7 +4,7 @@
   "description": "RxJS operators for Angular",
   "main": "src/index.js",
   "scripts": {
-    "clean": "rm -rf src/*.{d.ts,js,js.map} && rm -rf src/**/*.{d.ts,js,js.map}",
+    "clean": "rm -rf dist && rm -rf src/*.{d.ts,js,js.map} && rm -rf src/**/*.{d.ts,js,js.map}",
     "build": "npm run clean && tsc -p .",
     "fmt": "tsfmt -r src/**/*.ts",
     "lint": "tslint src/**/*.ts",
