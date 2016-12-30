@@ -8,8 +8,9 @@
     "build": "npm run clean && tsc -p .",
     "fmt": "tsfmt -r src/**/*.ts",
     "lint": "tslint src/**/*.ts",
-    "test": "npm run build && tsc -p tsconfig.test.json && mocha",
-    "preversion": "npm run lint && npm test"
+    "test": "tsc -p tsconfig.test.json && mocha",
+    "preversion": "npm run lint && npm run build && npm test",
+    "prepublish": "node make-package.js"
   },
   "repository": {
     "type": "git",

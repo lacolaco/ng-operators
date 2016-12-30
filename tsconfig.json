@@ -9,7 +9,8 @@
         "declaration": true,
         "sourceMap": true,
         "noImplicitAny": true,
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        "outDir": "dist"
     },
     "include": [
         "src/**/*.ts"

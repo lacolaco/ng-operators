@@ -1,7 +1,7 @@
 node_modules
 npm-debug.log
 
-src/**/*.ts
+src
 test
 tsconfig.test.json
 tslint.json
