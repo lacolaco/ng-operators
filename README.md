@@ -40,22 +40,22 @@ mapToResponseJson.call(response$).subscribe(...);
 
 ### `mapToResponseJson<R>`
 
-Input: `Observable<http.Response>`
-Output: `Observable<R>`
+- Input: `Observable<http.Response>`
+- Output: `Observable<R>`
 
 A shorthand of `.map(resp => resp.json() as R)`
 
 ### `mapToResponseText`
 
-Input: `Observable<http.Response>`
-Output: `Observable<string>`
+- Input: `Observable<http.Response>`
+- Output: `Observable<string>`
 
 A shorthand of `.map(resp => resp.text())`
 
 ### `onNavigationEnd`
 
-Input: `Observable<router.Event>`
-Output: `Observable<router.NavigationEnd>`
+- Input: `Observable<router.Event>`
+- Output: `Observable<router.NavigationEnd>`
 
 A shorthand of `router.events.filter(e => e instanceof NavigationEnd)`
 
