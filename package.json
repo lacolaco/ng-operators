@@ -1,0 +1,44 @@
+{
+  "name": "ng-operators",
+  "version": "0.1.0",
+  "description": "RxJS operators for Angular",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf src/*.{d.ts,js,js.map} && rm -rf src/**/*.{d.ts,js,js.map}",
+    "build": "npm run clean && tsc -p .",
+    "fmt": "tsfmt -r src/**/*.ts",
+    "lint": "tslint src/**/*.ts",
+    "test": "npm run build && tsc -p tsconfig.test.json && mocha",
+    "preversion": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laco0416/ng-operators.git"
+  },
+  "keywords": [
+    "Angular",
+    "RxJS"
+  ],
+  "author": "Suguru Inatomi <laco0416@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laco0416/ng-operators/issues"
+  },
+  "homepage": "https://github.com/laco0416/ng-operators#readme",
+  "peerDependencies": {
+    "@angular/core": "^2.0.0",
+    "rxjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "@angular/core": "^2.4.1",
+    "@angular/http": "^2.4.1",
+    "@angular/router": "^3.4.1",
+    "@types/mocha": "^2.2.35",
+    "@types/node": "^6.0.55",
+    "mocha": "^3.2.0",
+    "rxjs": "^5.0.1",
+    "tslint": "^4.2.0",
+    "typescript": "~2.0.10",
+    "typescript-formatter": "^4.0.1"
+  }
+}

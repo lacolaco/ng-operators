@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+
+src/**/*.ts
+test
+tsconfig.test.json
+tslint.json
+.gitignore
